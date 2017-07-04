@@ -26,3 +26,16 @@
 hr {
   background-color: #bad26a
 }
+
+.title-progress {
+  display: block;
+}
+
+h4.card-title {
+  display: inline;
+  vertical-align: middle;
+}
+
+.title-progress > span {
+  margin-left: 5px;
+}
