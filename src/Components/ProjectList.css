@@ -1,0 +1,28 @@
+.project-list-img {
+  width: 200px;
+  height: 200px;
+}
+
+.wrapper > .card portfolio {
+  max-width: 200px;
+}
+
+.card > img {
+  height: 200px;
+}
+
+.btn_read_more {
+  padding: 5px;
+}
+
+.btn_read_more:hover {
+  background-color: #bad26a;
+}
+
+.btn_read_more:focus {
+  background-color: #bad26a;
+}
+
+hr {
+  background-color: #bad26a
+}
