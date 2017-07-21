@@ -1,21 +1,29 @@
 import React, { Component } from 'react'
+
+import Services from './Services'
+
 import './HomePage.css'
 
 class HomePage extends Component {
   render () {
     return (
       <div className='container-fluid wrapper'>
-        <div className='card card-info text-center z-depth-2'>
-          <div className='card-block'>
-            <p className='white-text'><h1>Under construction!</h1></p>
-            <p className='white-text'><em>Deadline: 15.07.17</em></p>
+        {/* <div className='about-me animated fadeIn'>
+          <p>Hi :) I am <strong>Nasko Daskalov</strong>, a <strong>freelance Web Developer</strong>, based in Sofia, Bulgaria. +1 year experience in developing with <strong>Javascript libraries like NodeJS and ReactJS</strong>. Also <strong>good knowledge of WordPress development</strong> and <strong>some knowledge of C# development and MSSQL Databases</strong>.</p>
+        </div> */}
+
+        <div className='self-present'>
+          <div className='admin-img'>
+            <h1><img src={require('../Images/nd.jpg')} alt='nasko daskalov image' /></h1>
+          </div>
+          <div className='admin-preview'>
+            I am <strong>Nasko Daskalov</strong>, a <strong>freelance Web Developer</strong>, based in Sofia, Bulgaria. +1 year experience in developing with <strong>Javascript libraries like NodeJS and ReactJS</strong>. Also <strong>good knowledge of WordPress development</strong> and <strong>some knowledge of C# development and MSSQL Databases</strong>.
           </div>
         </div>
-
-        <div className='about-me animated fadeIn'>
-          <p>Hi :) I am <strong>Nasko Daskalov</strong>, a <strong>freelance Web Developer</strong>, based in Sofia, Bulgaria. +1 year experieced in developing with <strong>Javascript libraries like NodeJS and ReactJS</strong>. Also some knowledges on C# development and MSSQL Databases.</p>
-        </div>
-
+        {/*
+        <div>
+          <Services />
+        </div> */}
       </div>
     )
   }

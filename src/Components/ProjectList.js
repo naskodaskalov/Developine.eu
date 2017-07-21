@@ -23,19 +23,10 @@ class ProjectList extends Component {
               <h4 className='card-title'>{this.props.projectName}</h4><span className={progressStyle}>{this.props.progress}</span>
             </div>
             <hr />
-            <p className='card-text'>{this.props.projectDescription}}</p>
-            <a href={this.props.url} className='black-text d-flex flex-row-reverse'><h5 className='btn_read_more'>Browse it <i className='fa fa-chevron-right' /></h5></a>
+            <p className='card-text'>{this.props.projectDescription}</p>
+            <a href={this.props.url} target='_blank' className='black-text d-flex flex-row-reverse'><span className='btn_read_more'>Browse it <i className='fa fa-chevron-right' /></span></a>
           </div>
         </div>
-
-        {/* <div className='card portfolio animated fadeIn'>
-          <img className='img-fluid' src={this.props.imageLink} alt={this.props.imageAlt} />
-          <div className='card-block'>
-            <h4 className='card-title'>{this.props.projectName}</h4>
-            <p className='card-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus blanditiis asperiores, nesciunt consequuntur voluptas veritatis distinctio necessitatibus eaque dolores non.</p>
-            <a href='#' className='btn btn-primary'>Button</a>
-          </div>
-        </div> */}
       </div>
     )
   }

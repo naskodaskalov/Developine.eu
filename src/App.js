@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import Header from './Components/Common/Header'
+import Footer from './Components/Common/Footer'
 import Routes from './Config/Routes'
 
 class App extends Component {

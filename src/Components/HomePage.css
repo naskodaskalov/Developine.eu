@@ -1,7 +1,7 @@
 h2 {
   color: #bad26a;
-  font-weight: 500;
-  border-bottom: 2px solid #bad26a;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 .about-me {
@@ -22,4 +22,36 @@ p {
 .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.service-title {
+  font-weight: 500;
+}
+
+.current-service {
+  padding-left: 10px;
+}
+
+.self-present {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.services {
+  display: inline;
+}
+
+.admin-img, .admin-img img {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100px;
+  border-radius: 40px;
+}
+
+.admin-preview {
+  vertical-align: middle;
+  padding-left: 20px;
+  display: inline-block;
+  max-width: 500px;
+  text-align: justify;
 }

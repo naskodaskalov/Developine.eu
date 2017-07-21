@@ -1,0 +1,44 @@
+
+input, textarea {
+  text-indent: 5px;
+}
+
+.contact-form { 
+  margin: 20px auto;
+}
+
+.contact-form .textarea {
+  min-height:220px; 
+}
+
+.form-control {
+  box-shadow:none;
+  border-color:#eee;
+  height:49px;
+}
+
+.form-control:focus {
+  box-shadow:none;
+  border-color:#c1d979;
+}
+
+.form-control-feedback {
+  line-height:50px;
+}
+
+.main-btn {
+  margin: 0 auto;
+  background:#c1d979;
+  border-color:#c1d979; 
+  color:#fff;
+}
+
+.main-btn:hover {
+  background:#c1d979;
+  color:#fff;
+}
+
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
+}

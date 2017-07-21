@@ -2,25 +2,44 @@
 @import '../node_modules/mdbootstrap/css/bootstrap.min.css';
 @import '../node_modules/mdbootstrap/css/mdb.min.css';
 @import '../node_modules/mdbootstrap/css/style.css';
+@import '../node_modules/toastr/build/toastr.min.css';
+
+
+html{
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 850px;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
 }
 
 .container-fluid {
   padding: 0;
   margin: 0;
 }
-
 .wrapper {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
-/*@media (min-width: 576px) { ... }
+#root {
+  /*background-color: black;*/
+  flex: 1;
+  color: black;  
+}
 
-@media (min-width: 768px) { ... }
+/*strong{ 
+  color: #ccc;
+}*/
 
-@media (min-width: 992px) { ... }*/
+.col-md-auto {
+  margin: 0 auto;
+}
