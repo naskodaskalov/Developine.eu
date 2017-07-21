@@ -4,6 +4,11 @@ h2 {
   font-weight: 400;
 }
 
+.fakeHOne {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .about-me {
   padding: 10px;
   max-width: 500px;
@@ -55,3 +60,43 @@ p {
   max-width: 500px;
   text-align: justify;
 }
+
+@media (max-width: 620px ) {
+.self-present > div {
+  margin: 0 auto;
+}
+
+  .admin-preview {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+  }
+
+  .admin-img, .admin-img img {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+ }
+
+ @media (min-width: 620px ) and (max-width: 660px ) {
+  .admin-preview {
+    margin-left: 10px;
+    max-width: 80%;
+    display: inline-block;
+  }
+
+  .admin-img, .admin-img img {
+
+    display: inline-block;
+  }
+ }
+
+ 
+
+
+
+
+ 
+
