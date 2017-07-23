@@ -14,16 +14,16 @@ class HomePage extends Component {
 
         <div className='self-present'>
           <div className='admin-img'>
-            <h1><img src={require('../Images/nd.jpg')} alt='nasko daskalov image' /></h1>
+            <img src={require('../Images/nd.jpg')} alt='nasko daskalov portret' />
           </div>
           <div className='admin-preview'>
-            <h1 className='fakeHOne'>I am <strong>Nasko Daskalov</strong>, a <strong>freelance Web Developer</strong>, based in Sofia, Bulgaria. +1 year experience in developing with <strong>Javascript libraries like NodeJS and ReactJS</strong>. Also <strong>good knowledge of WordPress development</strong> and <strong>some knowledge of C# development and MSSQL Databases</strong>.</h1>
+            <h1>I am <strong>Nasko Daskalov</strong>, a <strong>freelance Web Developer</strong>, based in Sofia, Bulgaria. +1 year experience in developing with <strong>Javascript libraries like NodeJS and ReactJS</strong>. Also <strong>good knowledge of WordPress development</strong> and <strong>some knowledge of C# development and MSSQL Databases</strong>.</h1>
           </div>
         </div>
-        {/*
-        <div>
+
+        <div className='provided-services'>
           <Services />
-        </div> */}
+        </div>
       </div>
     )
   }

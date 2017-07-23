@@ -4,7 +4,7 @@ h2 {
   font-weight: 400;
 }
 
-.fakeHOne {
+.admin-preview > h1 {
   font-size: 16px;
   font-weight: 400;
 }
@@ -61,13 +61,36 @@ p {
   text-align: justify;
 }
 
+.provided-services {
+  margin: 20px auto;
+  display: table;
+}
+
+div.backend-service {
+  display: table-cell;
+}
+
+div.frontend-service {
+  margin-left: 50px;
+  display: table-cell;
+}
+
+div.frontend-service img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+div.backend-service img {
+  width: 50%;
+  margin-bottom: 20px;
+}
 @media (max-width: 620px ) {
 .self-present > div {
   margin: 0 auto;
 }
 
   .admin-preview {
-    margin: 0;
+    
     padding: 0;
     width: 100%;
     display: block;
