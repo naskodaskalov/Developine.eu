@@ -85,12 +85,11 @@ div.backend-service img {
   margin-bottom: 20px;
 }
 @media (max-width: 620px ) {
-.self-present > div {
-  margin: 0 auto;
-}
+  .self-present > div {
+    margin: 0 auto;
+  }
 
-  .admin-preview {
-    
+  .admin-preview {    
     padding: 0;
     width: 100%;
     display: block;
