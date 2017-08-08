@@ -3,7 +3,7 @@
 @import '../node_modules/mdbootstrap/css/mdb.min.css';
 @import '../node_modules/mdbootstrap/css/style.css';
 @import '../node_modules/toastr/build/toastr.min.css';
-
+@import './Components/Contact.css';
 
 html{
     max-width: 1920px;

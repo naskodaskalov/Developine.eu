@@ -30,6 +30,9 @@ class Services extends Component {
             <li className='current-service'>
               ReactJS
             </li>
+            <li className='current-service'>
+              Wordpress
+            </li>
           </ul>
         </div>
 

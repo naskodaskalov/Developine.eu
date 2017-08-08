@@ -1,4 +1,3 @@
-
 input, textarea {
   text-indent: 5px;
 }
@@ -13,13 +12,21 @@ input, textarea {
 
 .form-control {
   box-shadow:none;
-  border-color:#eee;
+  border-color:#c1d979;
   height:49px;
 }
 
+
+input.form-control {
+  border-bottom: 1px solid #c1d979;
+}
+
+input.form-control:focus {
+  border-bottom: 0px;
+}
+
 .form-control:focus {
-  box-shadow:none;
-  border-color:#c1d979;
+  border-color: #c1d979;  
 }
 
 .form-control-feedback {

@@ -33,20 +33,20 @@ a:visited {
 }
 
 a:hover {
-  color: #c1d979;
+  color: #bad26a;
 }
 
 a:active {
   text-decoration: underline;
-  color: #c1d979;
+  color: #bad26a;
 }
 
-.possibilityToHire {
+.possibilityToHire a {
   font-style: italic;
   display: block;
-  color: #c1d979;
+  color: #bad26a;
   margin-left: 25px;
-  font-size: 15px;
+  font-size: 0.8em;
   animation: blinker  2s infinite;
 }
 
@@ -54,6 +54,9 @@ a:active {
   color: red;
 }
 
+a.selected {
+  color: #bad26a;
+}
 
 @keyframes blinker {  
   50% { opacity: 0; }
@@ -125,8 +128,4 @@ a:active {
     margin-left: 10em;
   }
  }
-
-
-
- 
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './Contact.css'
 import toastr from 'toastr'
 import $ from 'jquery'
 
