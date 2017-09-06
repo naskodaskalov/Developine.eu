@@ -16,7 +16,7 @@ class Header extends Component {
     if (this.state.status !== 'available to hire') {
       statusStyle += ' notAvailable'
     }
-    
+
     return (
       <div className='container-fluid header'>
         <Link to='/'>
@@ -30,11 +30,7 @@ class Header extends Component {
             <NavLink exact to='/contact' activeClassName='selected'>Contact</NavLink>
           </span>
         </nav>
-<<<<<<< HEAD
         <span className={statusStyle}><Link to='/contact'>{this.state.status}</Link></span>
-=======
-        <Link to='/contact'><span className={statusStyle}>{this.state.status}</span></Link>
->>>>>>> 5a9a2717e5355fb5313e60e3153ce475ce81dac5
       </div>
     )
   }

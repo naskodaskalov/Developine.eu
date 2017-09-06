@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^www\.developine\.eu$
+RewriteRule ^/?$ "http\:\/\/developine\.eu\/" [R=301,L]

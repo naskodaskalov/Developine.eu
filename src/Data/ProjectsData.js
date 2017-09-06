@@ -4,11 +4,11 @@ const projects = {
       resolve([
         {
           id: '1',
-          url: '#',
-          projectName: 'Bulgarian Federation of Footpool and Snookball',
+          url: 'http://msphotographer.developine.eu',
+          projectName: 'Mario Shumanov Photographer',
           progress: 'Under Construction',
-          projectDescription: 'The project is for the Official page of The Bulgarian Federation of Footpool and Snookball.',
-          imageLink: `${require('../Images/ffsb.png')}`
+          projectDescription: 'Portfolio of photographer Mario Shumanov.',
+          imageLink: `${require('../Images/mshp-logo.png')}`
         },
         {
           id: '2',

@@ -12,9 +12,10 @@ class Portfolio extends Component {
   }
 
   componentDidMount () {
-    projectsData.getProjects().then(projects => this.setState({ projects }))
+    projectsData
+      .getProjects()
+      .then(projects => this.setState({ projects }))
   }
-
   render () {
     let projects = this.state.projects.map(project => (
       <div className='col-md-auto' key={project.id}>

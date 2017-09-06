@@ -10,7 +10,7 @@ class ProjectList extends Component {
       progressStyle += 'badge-info'
     }
     return (
-      <div className='wrapper'>
+      <div>
         <div className='card'>
           <div className='view overlay hm-white-slight'>
             <img src={this.props.imageLink} className='img-fluid' alt={this.props.imageAlt} />
@@ -24,7 +24,9 @@ class ProjectList extends Component {
             </div>
             <hr />
             <p className='card-text'>{this.props.projectDescription}</p>
-            <a href={this.props.url} target='_blank' className='black-text d-flex flex-row-reverse'><span className='btn_read_more'>Browse it <i className='fa fa-chevron-right' /></span></a>
+            <div className='d-flex  flex-row-reverse'>
+              <a href={this.props.url} target='_blank' className='black-text'><span className='btn_read_more'>Browse it <i className='fa fa-chevron-right' /></span></a>
+            </div>
           </div>
         </div>
       </div>

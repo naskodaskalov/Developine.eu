@@ -43,18 +43,10 @@ a:active {
 
 .possibilityToHire a {
   font-style: italic;
-<<<<<<< HEAD
   display: block;
   color: #bad26a;
   margin-left: 25px;
   font-size: 0.8em;
-=======
-  display: inline-block;
-  color: #c1d979;
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 20px;
->>>>>>> 5a9a2717e5355fb5313e60e3153ce475ce81dac5
   animation: blinker  2s infinite;
 }
 
@@ -62,13 +54,10 @@ a:active {
   color: red;
 }
 
-<<<<<<< HEAD
 a.selected {
   color: #bad26a;
 }
 
-=======
->>>>>>> 5a9a2717e5355fb5313e60e3153ce475ce81dac5
 @keyframes blinker {  
   50% { opacity: 0; }
 }

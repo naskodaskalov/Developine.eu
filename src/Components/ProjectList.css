@@ -15,8 +15,9 @@
   max-width: 200px;
 }
 
-.card > img {
-  height: 200px;
+.img-fluid {
+  margin: 0 auto;
+  max-height: 300px;
 }
 
 .btn_read_more {
@@ -46,4 +47,9 @@ h4.card-title {
 
 .title-progress > span {
   margin-left: 5px;
+}
+
+p.card-text {
+  text-justify: inter-word;
+  text-align: justify;
 }
