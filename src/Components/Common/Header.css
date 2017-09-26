@@ -1,11 +1,14 @@
 .header {
-  padding: 0;
+  padding: 0 10px;
   margin: 0;
   font-weight: 500;
   height: 150px;
   font-size: 22px;
   border-bottom: 1px solid #bad26a;
   border-radius: 0px 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .logo {
@@ -18,8 +21,7 @@
 }
 
 nav {
-  margin-left: 20em;
-  display: inline;
+  justify-content: flex-end;
 }
 
 a {
@@ -84,11 +86,12 @@ a.selected {
     text-align: center;
   }
 
-  a {
+  nav a {
     display: inline;
     padding: 1em;
     margin: 0 auto;
   }
+
  }
 
 
@@ -114,17 +117,19 @@ a.selected {
      padding: 1em;
      margin: 0 auto;
    }
- }
-
- @media (min-width: 860px) and (max-width: 1060px) { 
-  nav {
-    margin-left: 50px;
+   
+  footer li a {
+    padding: 0;
+    margin: 0;
   }
  }
 
-@media (min-width: 1060px) and (max-width: 1300px) { 
+ @media (max-width: 900px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
   nav {
-    margin-left: 10em;
+    display: block;
   }
  }
-

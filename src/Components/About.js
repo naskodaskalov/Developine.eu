@@ -21,6 +21,7 @@ class About extends Component {
     let certificates = this.state.certificates.map(certificate => (
       <Image
         spaced='4'
+        className='current-certificate'
         href={certificate.url}
         key={certificate.id}
         src={certificate.imageLink}
@@ -32,18 +33,6 @@ class About extends Component {
         target='_blank'
         label={{ as: 'a', color: 'olive', content: `${certificate.mark}`, icon: 'star', ribbon: true }}
       />
-      // <div className='card'>
-      //   <div className='view overlay hm-white-slight'>
-      //     <a href={certificate.url} target='_blank'>
-      //       <img className='img-fluid' src={certificate.imageLink} alt={certificate.certificateName} />
-      //     </a>
-      //   </div>
-      //   <div className='card-body'>
-      //     <h4 className='card-title'>{certificate.certificateName}</h4>
-      //     <h3 className='certificate-mark'>{certificate.mark}</h3>
-      //     <Rating maxRating={6} defaultRating={certificate.mark} icon='star' size='mini' disabled />
-      //   </div>
-      // </div>
     ))
     return (
       <div className='wrapper'>
@@ -51,7 +40,7 @@ class About extends Component {
           <h2>
             Here you can check all my certificates, received during my IT Education in Software University, in Sofia, Bulgaria.
           </h2>
-          <div className='row'>
+          <div className='certificates'>
             {certificates}
           </div>
         </div>

@@ -6,7 +6,7 @@ const projects = {
           id: '1',
           url: 'http://msphotographer.developine.eu',
           projectName: 'Mario Shumanov Photographer',
-          progress: 'Under Construction',
+          progress: 'Finished',
           projectDescription: 'Portfolio of photographer Mario Shumanov.',
           imageLink: `${require('../Images/mshp-logo.png')}`
         },

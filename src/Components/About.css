@@ -4,3 +4,13 @@
   max-width: 80%;
   margin: 0 auto;
 }
+
+.certificates {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.current-certificate {
+  padding: 5px;
+}

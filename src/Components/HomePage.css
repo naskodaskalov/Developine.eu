@@ -5,8 +5,13 @@ h2 {
 }
 
 .last-projects {
-  margin: 0 auto;
-  max-width: 650px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card {
+  justify-content: center;
 }
 
 .card-header {
@@ -41,7 +46,6 @@ p.mb-0 {
 }
 
 .card {
-  display: inline-block;
   margin: 10px;
   padding: 5px;
   max-width: 280px;
@@ -123,6 +127,15 @@ div.backend-service img {
   margin-bottom: 20px;
 }
 @media (max-width: 620px ) {
+  .last-projects {
+    width: 100%;
+    display: block;
+  }
+  .card {
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 100%;
+  }
   .self-present > div {
     margin: 0 auto;
   }

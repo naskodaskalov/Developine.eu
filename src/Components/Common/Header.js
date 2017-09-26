@@ -30,7 +30,6 @@ class Header extends Component {
             <NavLink exact to='/contact' activeClassName='selected'>Contact</NavLink>
           </span>
         </nav>
-        <span className={statusStyle}><Link to='/contact'>{this.state.status}</Link></span>
       </div>
     )
   }

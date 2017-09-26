@@ -19,8 +19,8 @@ class Footer extends Component {
           <div className='col-md-3 offset-md-1'>
             <h5 className='title'>Last 3 Projects</h5>
             <ul>
+              <li><a href='http://msphotographer.developine.eu'>Mario Shumanov Photographer Portfolio</a></li>
               <li><a href='http://cataleatradingreports.herokuapp.com'>Catalea Research Engine</a></li>
-              <li><a href='http://ganyoexpress.developine.eu'>GanyoExpress (University Project)</a></li>
               <li><a href='http://obiavime.developine.eu'>Obiavi.Me (University Project)</a></li>
             </ul>
           </div>
@@ -29,7 +29,7 @@ class Footer extends Component {
             <h5 className='title'>© 2017</h5>
             <ul>
               <li>Designed and Developed by:</li>
-              <li>Nasko Daskalov | Developine.eu</li>
+              <li><a href='http://developine.eu'>Nasko Daskalov | Developine.eu</a></li>
             </ul>
           </div>
 
