@@ -4,6 +4,14 @@ const projects = {
       resolve([
         {
           id: '1',
+          url: 'http://checkmylucktoday.com',
+          projectName: 'Check my daily luck',
+          progress: 'Finished',
+          projectDescription: 'Do you want to know what is your daily luck? Find out here!',
+          imageLink: `${require('../Images/fb-img.jpg')}`
+        },
+        {
+          id: '2',
           url: 'http://msphotographer.developine.eu',
           projectName: 'Mario Shumanov Photographer',
           progress: 'Finished',
@@ -11,7 +19,7 @@ const projects = {
           imageLink: `${require('../Images/mshp-logo.png')}`
         },
         {
-          id: '2',
+          id: '3',
           url: 'http://cataleatradingreports.herokuapp.com',
           projectName: 'Catalea Research Engine',
           progress: 'Under Construction',
@@ -19,7 +27,7 @@ const projects = {
           imageLink: `${require('../Images/catalea.png')}`
         },
         {
-          id: '3',
+          id: '4',
           url: 'http://obiavime.developine.eu',
           projectName: 'Obiavi.Me',
           progress: 'Finished',
@@ -27,7 +35,7 @@ const projects = {
           imageLink: `${require('../Images/obiavime.png')}`
         },
         {
-          id: '4',
+          id: '5',
           url: 'http://ganyoexpress.developine.eu',
           projectName: 'GanyoExpress',
           progress: 'Finished',

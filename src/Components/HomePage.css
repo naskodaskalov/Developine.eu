@@ -5,9 +5,19 @@ h2 {
 }
 
 .last-projects {
-  justify-content: center;
+  width: 50%;
+  margin:0 auto;
+  justify-content: space-around;
   display: flex;
   margin-bottom: 20px;
+}
+
+.scholarship .card {
+  padding: 0;
+}
+
+.scholarship .card-body {
+  margin: 0;
 }
 
 .card {
@@ -15,7 +25,13 @@ h2 {
 }
 
 .card-header {
+  margin-bottom: 10px;
+  text-transform: uppercase;
   background-color: #bad26a;
+}
+
+p.card-text, h4.card-title {
+  padding: 0 10px;
 }
 
 .days-left {
@@ -31,9 +47,11 @@ h2 {
 }
 
 .card-body {
+  height: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 
 .pending-project {
   margin-right: 30px;
@@ -130,9 +148,10 @@ div.backend-service img {
   .last-projects {
     width: 100%;
     display: block;
-  }
+  } 
+
   .card {
-    margin: 0 auto;
+    margin: 0 auto 20px;
     padding: 5px;
     max-width: 100%;
   }
