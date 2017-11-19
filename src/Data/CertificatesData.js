@@ -50,6 +50,13 @@ const certificates = {
           certificateName: 'Databases Advanced - Entity Framework',
           mark: '5.86',
           imageLink: `${require('../Images/certificates/db-advanced-entity.jpg')}`
+        },
+        {
+          id: '8',
+          url: 'https://softuni.bg/certificates/details/24649/8dd672d4',
+          certificateName: 'Web Fundamentals - HTML/CSS',
+          mark: '6.00',
+          imageLink: `${require('../Images/certificates/web-fundamentals.jpg')}`
         }
       ])
     })

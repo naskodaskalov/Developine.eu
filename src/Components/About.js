@@ -11,14 +11,13 @@ class About extends Component {
       certificates: []
     }
   }
-
   componentDidMount () {
     certificatesData
       .getCertificates()
       .then(certificates => this.setState({ certificates }))
   }
   render () {
-    let certificates = this.state.certificates.map(certificate => (
+    let certificates = this.state.certificates.sort((a, b) => b.id - a.id).map(certificate => (
       <Image
         spaced='4'
         className='current-certificate'

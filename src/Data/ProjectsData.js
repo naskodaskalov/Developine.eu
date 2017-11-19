@@ -4,19 +4,19 @@ const projects = {
       resolve([
         {
           id: '1',
-          url: 'http://checkmylucktoday.com',
-          projectName: 'Check my daily luck',
+          url: 'http://obiavime.developine.eu',
+          projectName: 'Obiavi.Me',
           progress: 'Finished',
-          projectDescription: 'Do you want to know what is your daily luck? Find out here!',
-          imageLink: `${require('../Images/fb-img.jpg')}`
+          projectDescription: 'A project made during a course in Software University. Used technologies: HTML, PHP, MySQL Database',
+          imageLink: `${require('../Images/obiavime.png')}`
         },
         {
           id: '2',
-          url: 'http://msphotographer.developine.eu',
-          projectName: 'Mario Shumanov Photographer',
+          url: 'http://ganyoexpress.developine.eu',
+          projectName: 'GanyoExpress',
           progress: 'Finished',
-          projectDescription: 'Portfolio of photographer Mario Shumanov.',
-          imageLink: `${require('../Images/mshp-logo.png')}`
+          projectDescription: 'A project made during a course in Software University. Used technologies: ReactJS, Bootstrap, Kinvey Database',
+          imageLink: `${require('../Images/ganyoexpress.png')}`
         },
         {
           id: '3',
@@ -28,19 +28,19 @@ const projects = {
         },
         {
           id: '4',
-          url: 'http://obiavime.developine.eu',
-          projectName: 'Obiavi.Me',
+          url: 'http://msphotographer.developine.eu',
+          projectName: 'Mario Shumanov Photographer',
           progress: 'Finished',
-          projectDescription: 'A project made during a course in Software University. Used technologies: HTML, PHP, MySQL Database',
-          imageLink: `${require('../Images/obiavime.png')}`
+          projectDescription: 'Portfolio of photographer Mario Shumanov.',
+          imageLink: `${require('../Images/mshp-logo.png')}`
         },
         {
           id: '5',
-          url: 'http://ganyoexpress.developine.eu',
-          projectName: 'GanyoExpress',
+          url: 'http://checkmylucktoday.com',
+          projectName: 'Check my daily luck',
           progress: 'Finished',
-          projectDescription: 'A project made during a course in Software University. Used technologies: ReactJS, Bootstrap, Kinvey Database',
-          imageLink: `${require('../Images/ganyoexpress.png')}`
+          projectDescription: 'Do you want to know what is your daily luck? Find out here!',
+          imageLink: `${require('../Images/fb-img.jpg')}`
         }
       ])
     })
