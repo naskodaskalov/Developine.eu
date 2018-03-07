@@ -57,6 +57,13 @@ const certificates = {
           certificateName: 'Web Fundamentals - HTML/CSS',
           mark: '6.00',
           imageLink: `${require('../Images/certificates/web-fundamentals.jpg')}`
+        },
+        {
+          id: '9',
+          url: 'https://softuni.bg/certificates/details/50408/bbe5d1c2',
+          certificateName: 'Javascript for Frontend',
+          mark: '5.76',
+          imageLink: `${require('../Images/certificates/js-frontend.jpeg')}`
         }
       ])
     })

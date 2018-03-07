@@ -41,6 +41,14 @@ const projects = {
           progress: 'Finished',
           projectDescription: 'Do you want to know what is your daily luck? Find out here!',
           imageLink: `${require('../Images/fb-img.jpg')}`
+        },
+        {
+          id: '6',
+          url: 'http://electiconsulting.com',
+          projectName: 'Electi Consulting',
+          progress: 'Finished',
+          projectDescription: 'Sliced and coded design. Tranformed for Joomla CMS.',
+          imageLink: `${require('../Images/electi-consulting.png')}`
         }
       ])
     })
