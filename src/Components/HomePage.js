@@ -29,9 +29,9 @@ class HomePage extends Component {
                 Last project
               </div>
             <div className='card-body'>
-              <img src={require('../Images/mostvaluablecryptos.png')} alt='Most Valuable Cryptos' />
-              <p>A place to check the most valuable cryptos these days.</p>
-              <a className='btn btn-proj btn-sm' href='http://mostvaluablecryptos.developine.eu' rel='noopener noreferrer' target='_blank'>Browse</a>
+              <img src={require('../Images/electi-consulting.png')} alt='Electi Consulting' />
+              <p>Sliced and coded design. Tranformed for Joomla CMS.</p>
+              <a className='btn btn-proj btn-sm' href='http://electiconsulting.com' rel='noopener noreferrer' target='_blank'>Browse</a>
             </div>
           </div>
         </div>

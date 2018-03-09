@@ -49,6 +49,14 @@ const projects = {
           progress: 'Finished',
           projectDescription: 'A place to check the most valuable cryptos these days.',
           imageLink: `${require('../Images/mostvaluablecryptos.png')}`
+        },
+        {
+          id: '7',
+          url: 'http://electiconsulting.com',
+          projectName: 'Electi Consulting',
+          progress: 'Finished',
+          projectDescription: 'Sliced and coded design. Tranformed for Joomla CMS.',
+          imageLink: `${require('../Images/electi-consulting.png')}`
         }
       ])
     })
