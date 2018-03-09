@@ -41,6 +41,14 @@ const projects = {
           progress: 'Finished',
           projectDescription: 'Do you want to know what is your daily luck? Find out here!',
           imageLink: `${require('../Images/fb-img.jpg')}`
+        },
+        {
+          id: '6',
+          url: 'http://mostvaluablecryptos.developine.eu',
+          projectName: 'Most Valuable Cryptos',
+          progress: 'Finished',
+          projectDescription: 'A place to check the most valuable cryptos these days.',
+          imageLink: `${require('../Images/mostvaluablecryptos.png')}`
         }
       ])
     })

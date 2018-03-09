@@ -29,9 +29,9 @@ class HomePage extends Component {
                 Last project
               </div>
             <div className='card-body'>
-
-              <img src={require('../Images/fb-img.jpg')} alt=' Google Developer Challenge Scholarship' />
-              <a className='btn btn-proj btn-sm' href='http://checkmylucktoday.com' rel='noopener noreferrer' target='_blank'>Browse</a>
+              <img src={require('../Images/mostvaluablecryptos.png')} alt='Most Valuable Cryptos' />
+              <p>A place to check the most valuable cryptos these days.</p>
+              <a className='btn btn-proj btn-sm' href='http://mostvaluablecryptos.developine.eu' rel='noopener noreferrer' target='_blank'>Browse</a>
             </div>
           </div>
         </div>
