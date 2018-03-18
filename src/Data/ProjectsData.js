@@ -57,6 +57,14 @@ const projects = {
           progress: 'Finished',
           projectDescription: 'Sliced and coded design. Tranformed for Joomla CMS.',
           imageLink: `${require('../Images/electi-consulting.png')}`
+        },
+        {
+          id: '8',
+          url: 'http://latestcryptostweets.eu/',
+          projectName: 'Latest Cryptos Tweets',
+          progress: 'Under Construction',
+          projectDescription: 'A place to check the lastest tweets from Bitcoin, Ethereum and Ripple. Also a search engine for other tweets.',
+          imageLink: `${require('../Images/latestcryptostweets.png')}`
         }
       ])
     })

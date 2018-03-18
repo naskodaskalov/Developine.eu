@@ -18,15 +18,21 @@ class HomePage extends Component {
     return (
       <div className='container-fluid wrapper'>
 
-        <div className='last-projects scholarship'>
-          <div className='card'>
-            <div className='card-body'>
-              <img src={require('../Images/Google-Dev-EMEA-Badge.png')} alt=' Google Developer Challenge Scholarship' />
-            </div>
-          </div>
+        <div className='last-projects'>
+            <div className='card text-center last-project'>
+                <div className='card-header white-text'>
+                    Latest Cryptos Tweets
+                  </div>
+                <div className='card-body'>
+                  <img src={require('../Images/latestcryptostweets.png')} alt='Electi Consulting' />
+                  <p>A place to check the lastest tweets from Bitcoin, Ethereum and Ripple. Also a search engine for other tweets.</p>
+                  <a className='btn btn-proj btn-sm' href='http://latestcryptostweets.eu/' rel='noopener noreferrer' target='_blank'>Browse</a>
+                </div>
+              </div>
+          
           <div className='card text-center last-project'>
             <div className='card-header white-text'>
-                Last project
+                Electi Consulting
               </div>
             <div className='card-body'>
               <img src={require('../Images/electi-consulting.png')} alt='Electi Consulting' />
