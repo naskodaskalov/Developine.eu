@@ -65,6 +65,14 @@ const projects = {
           progress: 'Under Construction',
           projectDescription: 'A place to check the lastest tweets from Bitcoin, Ethereum and Ripple. Also a search engine for other tweets.',
           imageLink: `${require('../Images/latestcryptostweets.png')}`
+        },
+        {
+          id: '9',
+          url: 'http://mrsantarun.developine.eu/',
+          projectName: 'Mr Santa Run - Game customizations',
+          progress: 'Finished',
+          projectDescription: 'Made some design customizations on a game, developed by Construct 2. Added a Leaderboard connected with Firebase database.',
+          imageLink: `${require('../Images/mrsantarun.png')}`
         }
       ])
     })

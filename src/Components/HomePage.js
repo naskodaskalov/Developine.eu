@@ -19,25 +19,25 @@ class HomePage extends Component {
       <div className='container-fluid wrapper'>
 
         <div className='last-projects'>
-            <div className='card text-center last-project'>
-                <div className='card-header white-text'>
-                    Latest Cryptos Tweets
-                  </div>
-                <div className='card-body'>
-                  <img src={require('../Images/latestcryptostweets.png')} alt='Electi Consulting' />
-                  <p>A place to check the lastest tweets from Bitcoin, Ethereum and Ripple. Also a search engine for other tweets.</p>
-                  <a className='btn btn-proj btn-sm' href='http://latestcryptostweets.eu/' rel='noopener noreferrer' target='_blank'>Browse</a>
-                </div>
-              </div>
-          
           <div className='card text-center last-project'>
             <div className='card-header white-text'>
-                Electi Consulting
+                    Latest Cryptos Tweets
+                  </div>
+            <div className='card-body'>
+                <img src={require('../Images/latestcryptostweets.png')} alt='Electi Consulting' />
+                <p>A place to check the lastest tweets from Bitcoin, Ethereum and Ripple. Also a search engine for other tweets.</p>
+                <a className='btn btn-proj btn-sm' href='http://latestcryptostweets.eu/' rel='noopener noreferrer' target='_blank'>Browse</a>
+              </div>
+          </div>
+
+          <div className='card text-center last-project'>
+            <div className='card-header white-text'>
+                Mr Santa Run
               </div>
             <div className='card-body'>
-              <img src={require('../Images/electi-consulting.png')} alt='Electi Consulting' />
-              <p>Sliced and coded design. Tranformed for Joomla CMS.</p>
-              <a className='btn btn-proj btn-sm' href='http://electiconsulting.com' rel='noopener noreferrer' target='_blank'>Browse</a>
+              <img src={require('../Images/mrsantarun.png')} alt='Mr. Santa Run' />
+              <p>Design customizations. Developed Leaderboard connected to Firebase database.</p>
+              <a className='btn btn-proj btn-sm' href='http://mrsantarun.developine.eu' rel='noopener noreferrer' target='_blank'>Browse</a>
             </div>
           </div>
         </div>
@@ -47,7 +47,8 @@ class HomePage extends Component {
             <img src={require('../Images/nd.jpg')} alt='nasko daskalov portret' />
           </div>
           <div className='admin-preview'>
-            <h1>I am <strong>Nasko Daskalov</strong>, a <strong>freelance Web Developer</strong>, based in Sofia, Bulgaria. +1 year experience in developing with <strong>Javascript libraries like ReactJS</strong> and server-side development with NodeJS and ExpressJS. Also <strong>good knowledge of WordPress development</strong> and <strong>some knowledge of C# development and MSSQL Databases</strong>.</h1>
+            <h1>I am <strong>Nasko Daskalov</strong>, a <strong>freelance Web Developer</strong>, based in Sofia, Bulgaria. +2 year experience in developing with <strong>Javascript libraries like ReactJS</strong> and server-side development with NodeJS and ExpressJS. Also <strong>good knowledge of WordPress development</strong> and <strong>MSSQL Databases</strong>.<br />
+            Working as a <strong>Front-end developer at Dynamicweb</strong> since the middle of 2018.</h1>
           </div>
         </div>
 
