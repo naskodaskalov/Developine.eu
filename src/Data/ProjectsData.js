@@ -26,14 +26,14 @@ const projects = {
           projectDescription: 'Catalea offers you the advantage of reading SEC filings online with easier-to-read text, faster navigation within a filing.',
           imageLink: `${require('../Images/catalea.png')}`
         },
-        {
-          id: '4',
-          url: 'http://msphotographer.developine.eu',
-          projectName: 'Mario Shumanov Photographer',
-          progress: 'Finished',
-          projectDescription: 'Portfolio of photographer Mario Shumanov.',
-          imageLink: `${require('../Images/mshp-logo.png')}`
-        },
+        // {
+        //   id: '4',
+        //   url: 'http://msphotographer.developine.eu',
+        //   projectName: 'Mario Shumanov Photographer',
+        //   progress: 'Finished',
+        //   projectDescription: 'Portfolio of photographer Mario Shumanov.',
+        //   imageLink: `${require('../Images/mshp-logo.png')}`
+        // },
         {
           id: '5',
           url: 'http://checkmylucktoday.com',
@@ -69,9 +69,9 @@ const projects = {
         {
           id: '9',
           url: 'http://mrsantarun.developine.eu/',
-          projectName: 'Mr Santa Run - Game customizations',
+          projectName: 'Mr Santa Run',
           progress: 'Finished',
-          projectDescription: 'Made some design customizations on a game, developed by Construct 2. Added a Leaderboard connected with Firebase database.',
+          projectDescription: 'Made some design customizations on a game. Created Leaderboard connected to Firebase.',
           imageLink: `${require('../Images/mrsantarun.png')}`
         }
       ])

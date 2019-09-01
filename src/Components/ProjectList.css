@@ -1,3 +1,4 @@
+
 .wrapper .card {
   color: black;
 }
@@ -9,7 +10,14 @@
   width: 200px;
   height: 200px;
 }
-
+.project-box {
+  max-height: 450px;
+  margin-bottom: 20px;
+}
+.view > img {
+  height: 100%;
+  max-height: 150px;
+}
 .wrapper > .card portfolio {
   max-width: 200px;
 }
@@ -50,5 +58,4 @@ h4.card-title {
 
 p.card-text {
   text-justify: inter-word;
-  text-align: justify;
 }

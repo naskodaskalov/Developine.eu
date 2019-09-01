@@ -18,7 +18,7 @@ class Portfolio extends Component {
   }
   render () {
     let projects = this.state.projects.sort((a, b) => b.id - a.id).map(project => (
-      <div className='col-md-auto' key={project.id}>
+      <div className='col-md-3 project-box' key={project.id}>
         <ProjectList
           url={project.url}
           imageAlt={project.projectDescription}

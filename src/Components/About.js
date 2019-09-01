@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import certificatesData from '../Data/CertificatesData'
-import { Image, Rating } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import './About.css'
 
 class About extends Component {

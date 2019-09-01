@@ -25,7 +25,7 @@ class ProjectList extends Component {
             <hr />
             <p className='card-text'>{this.props.projectDescription}</p>
             <div className='d-flex  flex-row-reverse'>
-              <a href={this.props.url} target='_blank' className='black-text'><span className='btn_read_more'>Browse it <i className='fa fa-chevron-right' /></span></a>
+              <a href={this.props.url} target='_blank' className='black-text card-btn'><span className='btn_read_more'>Browse it <i className='fa fa-chevron-right' /></span></a>
             </div>
           </div>
         </div>

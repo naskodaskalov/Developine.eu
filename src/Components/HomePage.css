@@ -1,3 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+}
+
 h2 {
   color: #bad26a;
   font-size: 22px;
@@ -12,61 +18,8 @@ h2 {
   margin-bottom: 20px;
 }
 
-.scholarship .card {
-  padding: 0;
-}
-
-.scholarship .card-body {
-  margin: 0;
-}
-
-.card {
-  justify-content: center;
-}
-
-.card-header {
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  background-color: #bad26a;
-}
-
-p.card-text, h4.card-title {
-  padding: 0 10px;
-}
-
-.days-left {
-  background-color: #bad26a;
-}
-
-.btn-proj {
-  background-color: #bad26a;
-}
-
-.card-text {
-  margin-top: 5px;
-}
-
-.card-body {
-  height: 100%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-
-.pending-project {
-  margin-right: 30px;
-  margin: 0 auto;
-  display: inline;
-}
-
 p.mb-0 {
   padding: 10px;
-}
-
-.card {
-  margin: 10px;
-  padding: 5px;
-  max-width: 280px;
 }
 
 .admin-preview > h1 {
@@ -98,10 +51,17 @@ p {
 }
 
 .self-present {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
-  max-width: 650px;
 }
 
+.personal-block {
+  display: flex;
+  flex-direction: row;
+}
 .services {
   display: inline;
 }
@@ -144,17 +104,20 @@ div.backend-service img {
   width: 50%;
   margin-bottom: 20px;
 }
+
+.current-service {
+  padding-left: 30px;
+  list-style-type: none;
+}
 @media (max-width: 620px ) {
+  .wrapper {
+    flex-direction: column;
+  }
+
   .last-projects {
     width: 100%;
     display: block;
   } 
-
-  .card {
-    margin: 0 auto 20px;
-    padding: 5px;
-    max-width: 100%;
-  }
   .self-present > div {
     margin: 0 auto;
   }
