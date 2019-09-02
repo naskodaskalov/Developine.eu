@@ -5,6 +5,7 @@ import Contact from '../Components/Contact'
 import About from '../Components/About'
 import Portfolio from '../Components/Portfolio'
 import NotFoundPage from '../Components/NotFoundPage'
+import Certificates from '../Components/Certificates'
 
 const Routes = () => (
   <Switch>
@@ -13,6 +14,7 @@ const Routes = () => (
     <Route path='/about' component={About} />
     <Route path='/portfolio' component={Portfolio} />
     <Route path='/contact' component={Contact} />
+    <Route path='/certificates' component={Certificates} />
     <Route component={NotFoundPage} />
   </Switch>
 )

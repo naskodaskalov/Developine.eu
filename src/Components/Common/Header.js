@@ -12,11 +12,6 @@ class Header extends Component {
     }
   }
   render () {
-    let statusStyle = 'possibilityToHire'
-    if (this.state.status !== 'available to hire') {
-      statusStyle += ' notAvailable'
-    }
-
     return (
       <div className='container-fluid header'>
         <Link to='/'>

@@ -109,6 +109,29 @@ div.backend-service img {
   padding-left: 30px;
   list-style-type: none;
 }
+.news {
+  flex-wrap: wrap;
+}
+
+.card-img {
+  width: 250px;
+  height: 170px !important;
+  max-width: none !important;
+}
+
+.card > .row {
+  margin: 0;
+  padding: 13px 0;
+}
+
+.row > .body {
+  margin: auto;
+}
+
+.btn-light {
+  background-color: #bad26a;
+}
+
 @media (max-width: 620px ) {
   .wrapper {
     flex-direction: column;
