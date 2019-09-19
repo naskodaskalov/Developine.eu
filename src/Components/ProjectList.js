@@ -9,6 +9,13 @@ class ProjectList extends Component {
     } else if (this.props.progress === 'Under Construction') {
       progressStyle += 'badge-info'
     }
+
+    let statusStyling = 'badge '
+    if (this.props.isLive) {
+      statusStyling += 'badge-danger'
+    } else {
+      statusStyling += 'badge-warning'
+    }
     return (
       <div>
         <div className='card'>
@@ -20,7 +27,7 @@ class ProjectList extends Component {
           </div>
           <div className='card-block'>
             <div className='title-progress'>
-              <h4 className='card-title'>{this.props.projectName}</h4><span className={progressStyle}>{this.props.progress}</span>
+              <h4 className='card-title'>{this.props.projectName}</h4><span className={progressStyle}>{this.props.progress}</span><span className={statusStyling}>{this.props.isLive ? "Live" : "Stopped"}</span>
             </div>
             <hr />
             <p className='card-text'>{this.props.projectDescription}</p>

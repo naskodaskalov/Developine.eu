@@ -130,6 +130,14 @@ div.backend-service img {
 
 .btn-light {
   background-color: #bad26a;
+  border: 1px solid #bad26a;
+  border-radius: 5px;
+}
+
+.btn-outline-light {
+  border: 1px solid #bad26a;
+  border-radius: 5px;
+  color: #bad26a !important;
 }
 
 @media (max-width: 620px ) {

@@ -23,6 +23,7 @@ class Portfolio extends Component {
           url={project.url}
           imageAlt={project.projectDescription}
           projectName={project.projectName}
+          isLive={project.isLive}
           progress={project.progress}
           projectDescription={project.projectDescription}
           imageLink={project.imageLink} />

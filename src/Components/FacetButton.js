@@ -2,18 +2,17 @@ import React, { Component } from 'react'
 
 export default class FacetButton extends Component {
   render () {
+    let isSelected = this.props.isSelected
+    let btnClass = 'btn btn-outline-light'
+    if (isSelected) {
+      btnClass = 'btn btn-light'
+    }
     return (
-      <label className='btn btn-light'>
-        <input
-          type='radio'
-          name='options'
-          className='invisible'
+        <span
+          className={btnClass}
           id={this.props.name}
-          value={this.props.name}
-          onChange={this.props.onChangeEvent}
-          />
-        {this.props.name}
-      </label>
+          onClick={this.props.changeCategory}>
+        {this.props.name}</span>
     )
   }
 }
