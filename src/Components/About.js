@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './About.css'
-
 import Services from './Services'
 import './HomePage.css'
+
 class About extends Component {
   render () {
     return (

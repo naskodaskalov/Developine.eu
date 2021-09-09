@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
     "jquery": "3.2.1",
+    "list-react-files": "^0.2.0",
     "mdbootstrap": "4.4.0",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",

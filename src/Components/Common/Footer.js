@@ -19,8 +19,8 @@ class Footer extends Component {
           <div className='col-md-3 offset-md-1'>
             <h5 className='title'>Last 3 Freelance Projects</h5>
             <ul>
-              <li><a href='http://mrsantarun.developine.eu/'>Mr Santa Run</a></li>
-              <li><a href='http://latestcryptostweets.eu/'>Latest Cryptos Tweets</a></li>
+              <li><a href='http://highlightstowatch.com/'>Highlights To Watch</a></li>
+              <li><a href='http://latestcryptostweets.developine.eu/'>Latest Cryptos Tweets</a></li>
               <li><a href='http://mostvaluablecryptos.developine.eu/'>Most valuable cryptos</a></li>
             </ul>
           </div>

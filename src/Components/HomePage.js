@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import './HomePage.css'
 
-import News from './News'
+import About from './About'
 
 class HomePage extends Component {
   render () {
     return (
       <div className='container-fluid'>
-        <News />
+        <About />
       </div>
     )
   }

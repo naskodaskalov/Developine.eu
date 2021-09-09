@@ -9,5 +9,5 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min'
 ReactDOM.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>, document.getElementById('root'));
+  </BrowserRouter>, document.getElementById('root'))
 registerServiceWorker()

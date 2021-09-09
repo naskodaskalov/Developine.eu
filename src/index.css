@@ -32,15 +32,13 @@ body {
 }
 
 #root {
-  /*background-color: black;*/
   flex: 1;
   color: black;  
 }
-
-/*strong{ 
-  color: #ccc;
-}*/
-
 .col-md-auto {
   margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
 }

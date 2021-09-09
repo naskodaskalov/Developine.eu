@@ -81,6 +81,15 @@ const projects = {
           isLive: false,
           projectDescription: 'Made some design customizations on a game. Created Leaderboard connected to Firebase.',
           imageLink: `${require('../Images/mrsantarun.png')}`
+        },
+        {
+          id: '10',
+          url: 'http://highlightstowatch.com/',
+          projectName: 'Highlights To Watch',
+          progress: 'Finished',
+          isLive: true,
+          projectDescription: 'Web service to watch football highlights, match statistics, teams line-up, leagues fixtures and many more.',
+          imageLink: `${require('../Images/meta-img.jpg')}`
         }
       ])
     })

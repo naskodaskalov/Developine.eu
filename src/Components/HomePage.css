@@ -143,12 +143,18 @@ div.backend-service img {
 @media (max-width: 620px ) {
   .wrapper {
     flex-direction: column;
+    padding: 0 20px;
   }
 
   .last-projects {
     width: 100%;
     display: block;
   } 
+
+  .self-present {
+    width: 100%;
+  }
+
   .self-present > div {
     margin: 0 auto;
   }
@@ -164,6 +170,20 @@ div.backend-service img {
     margin: 0;
     padding: 0;
     display: block;
+  }
+
+  .personal-block {
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .personal-block > div {
+    margin: 10px auto;
+  }
+
+  .services ul {
+    padding-left: 5px;
   }
  }
 

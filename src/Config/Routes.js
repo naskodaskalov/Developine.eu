@@ -6,6 +6,7 @@ import About from '../Components/About'
 import Portfolio from '../Components/Portfolio'
 import NotFoundPage from '../Components/NotFoundPage'
 import Certificates from '../Components/Certificates'
+import PhotoLibrary from '../Components/PhotoLibrary'
 
 const Routes = () => (
   <Switch>
@@ -15,7 +16,8 @@ const Routes = () => (
     <Route path='/portfolio' component={Portfolio} />
     <Route path='/contact' component={Contact} />
     <Route path='/certificates' component={Certificates} />
-    <Route component={NotFoundPage} />
+    <Route path='/photolibrary' component={PhotoLibrary} />
+    
   </Switch>
 )
 

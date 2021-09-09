@@ -20,7 +20,7 @@ class Header extends Component {
         <nav>
           <span className='links'>
             <NavLink exact to='/' activeClassName='selected'>Home</NavLink>
-            <NavLink exact to='/about' activeClassName='selected'>About</NavLink>
+            <NavLink exact to='/certificates' activeClassName='selected'>Certificates</NavLink>
             <NavLink exact to='/portfolio' activeClassName='selected'>Portfolio</NavLink>
             <NavLink exact to='/contact' activeClassName='selected'>Contact</NavLink>
           </span>
