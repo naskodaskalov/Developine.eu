@@ -1,16 +1,17 @@
-import React, { Component } from 'react'
-import './HomePage.css'
+import "./HomePage.css";
 
-import About from './About'
+import React, { Component } from "react";
+
+import About from "./About";
 
 class HomePage extends Component {
-  render () {
+  render() {
     return (
-      <div className='container-fluid'>
+      <div className="container-fluid">
         <About />
       </div>
-    )
+    );
   }
 }
 
-export default HomePage
+export default HomePage;
